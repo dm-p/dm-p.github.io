@@ -3,7 +3,7 @@ name: "coacervo"
 title: "coacervo"
 description: "Stuff about Coacervo."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: ''
 google_analytics: ''
 disqus: 'coacervo'
@@ -18,8 +18,9 @@ authors:
     display_name: Daniel Marsh-Patrick
     gravatar: 0b57cf928c302b4c199c7fe56235c553
     email: daniel@coacervo.co
-    web: https://www.coacervo.co
+    web: /about
     twitter: https://twitter.com/the_d_mp
+    linkedin: https://www.linkedin.com/in/daniel-m-p/
     description: "Stuff about Daniel."
 
 # Plugins
