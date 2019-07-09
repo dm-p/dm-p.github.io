@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: #2b4162;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: #ce6c47;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ pre {
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    background: #e4b363;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -305,7 +305,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mainheading h1.posttitle {
@@ -330,14 +330,14 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
-    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
 }
 
 blockquote {
-    border-left: 4px solid #00ab6b;
+    border-left: 4px solid #2b4162;
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
@@ -502,7 +502,7 @@ ul.tags li {
 
 ul.tags li a {
     background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
+    color: #ce6c47;
     border-radius: 3px;
     padding: 5px 10px;
 }
@@ -525,8 +525,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #e4b363;
+    color: #ce6c47;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -535,8 +535,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #ce6c47;
+    border-color: #ce6c47;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -581,8 +581,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #ce6c47;
+    border: 1px solid #ce6c47;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -685,7 +685,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .article-post .h1,
@@ -711,7 +711,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -874,7 +874,7 @@ iframe {
     line-height: 1;
     padding: 2px 3px;
     width: 150px;
-    font-family: Arial;
+    font-family: 'Roboto', sans_serif;
     text-align: center;
     border-radius: 3px;
     transition: all .4s;

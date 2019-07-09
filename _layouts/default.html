@@ -36,14 +36,16 @@ ga('send', 'pageview');
 <body class="{{layout}}">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top mediumnavigation nav-down">
 
     <div class="container pr-0">
 
@@ -75,20 +77,18 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCustomVisuals" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Power BI Custom Visuals
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownCustomVisuals">
+                        <h6 class="dropdown-header">Published</h6>
+                        <a class="dropdown-item" href="https://bitbucket.org/dm-p/power-bi-visuals-small-multiple-line-chart" target="_blank">Small Multiple Line Chart</a>
+                        <a class="dropdown-item" href="https://bitbucket.org/dm-p/power-bi-visuals-violin-plot" target="_blank">Violin Plot</a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Tutorials</h6>
+                        <a class="dropdown-item" href="#">Coming Soon!</a>
+                      </div>
                 </li>
 
                 {% include search-lunr.html %}
