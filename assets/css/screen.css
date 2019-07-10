@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #2b4162;
+    color: #ce6c47;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #ce6c47;
+    color: #2b4162;
     text-decoration: none;
 }
 
@@ -525,12 +525,9 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #e4b363;
-    color: #ce6c47;
-    padding: 3px 10px;
+    padding: 1px 1px;
     text-align: center;
-    border-radius: 999em;
-    font-size: 0.85rem;
+    font-size: 1rem;
     display: inline-block;
 }
 
