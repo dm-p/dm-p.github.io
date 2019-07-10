@@ -5,7 +5,7 @@ description: "Stuff about Coacervo."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-google_analytics: ''
+google_analytics: 'UA-143608567-1'
 disqus: 'coacervo'
 mailchimp-list: 
 include: ["_pages"]
