@@ -769,15 +769,14 @@ iframe {
         margin-bottom: -50px;
         margin-top: 3rem;
         padding: 0;
-        height: 350px;
+        height: 100px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
-        background-size: cover;
+        background: #fff;
     }
 
     .jumbotron.fortags .col-md-4 {
-        background: rgba(0, 0, 0, 0.75);
-        color: #fff;
+        background:#fff;
+        color: #ce6c47;
     }
 
     .jumbotron.fortags .row {
@@ -789,13 +788,13 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
     background-size: cover;
+    background: #fff;
 }
 
 .jumbotron.fortags a {
     padding: 5px 10px 7px;
-    background: #222;
+    background: #ce6c47;
     border-radius: 30px;
     color: #fff;
     font-weight: 500;
