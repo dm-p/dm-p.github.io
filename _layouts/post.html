@@ -32,11 +32,11 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
-                        <a target="_blank" href="{{ author.twitter }}" class="link-dark btn follow">
+                        <a target="_blank" class="link-dark" href="{{ author.web }}" >{{ author.display_name }}</a>
+                        <a target="_blank" href="{{ author.twitter }}" class="link-dark btn follow" alt="Follow on Twitter" title="Follow on Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a target="_blank" href="{{ author.linkedin }}" class="link-dark btn follow">
+                        <a target="_blank" href="{{ author.linkedin }}" class="link-dark btn follow" alt="Connect on LinkedIn" title="Connect on LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                         
@@ -84,7 +84,7 @@ post_class: post-template
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
                     <div class="toc mt-4 mb-4 lead">
-                        <h3 class="font-weight-bold">Summary</h3>
+                        <h4 class="font-weight-bold">Summary</h3>
                         {% include toc.html html=content %}
                     </div>
                 {% endif %}
