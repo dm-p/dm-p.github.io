@@ -165,7 +165,7 @@ constructor(options: VisualConstructorOptions) {
     console.log('Visual constructor', options);
     /** Visual container */
         this.container = d3select.select(options.element)
-            .append('div');
+            .append('table');
 }
 ```
 
