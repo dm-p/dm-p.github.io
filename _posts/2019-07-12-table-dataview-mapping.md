@@ -3,7 +3,7 @@ layout: post
 title:  "Using the `table` DataViewMapping in Power BI Custom Visuals"
 author: daniel
 categories: [ Custom Visual SDK, Example ]
-tags: [ dataviewmappings, capabilities ]
+tags: [ dataviewmappings, capabilities, table, dataroles ]
 image: 'assets/images/dataviews-table-example/data-view-mapping-ss.png'
 description: "How to set up and work with a simple `table` DataViewMapping in the Power BI custom visuals SDK."
 hidden: false
