@@ -21,6 +21,11 @@ a:hover {
     text-decoration: none;
 }
 
+code {
+    color: #2b4162;
+    font-size: 95%;
+}
+
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
