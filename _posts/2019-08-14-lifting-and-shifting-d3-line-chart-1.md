@@ -416,7 +416,7 @@ We've covered a lot of ground today and (assuming everything's working), we shou
 
 That should be enough for today! 
 
-At this point our custom visual isn't doing anything exciting visually, but as discussed above, we'll handle porting across the elements and plotting logic in part 2.
+At this point our custom visual isn't doing anything exciting visually, but as discussed above, we'll handle [porting across the elements and plotting logic in part 2](/examples/d3-line-chart-2).
 
 See you soon!
 
