@@ -4,7 +4,7 @@ title:  "Power BI, the Violin Plot and Data Grain (Sampling)"
 author: daniel
 categories: [ Power BI, Custom Visual, Aggregation ]
 tags: [ violinplot, sampling, grain, dataroles ]
-image: "assets/images/violin/1.3.0/store_icon.png"
+image: "assets/images/violin/violin_plot_sampling.png"
 description: "How to correctly structure your data for using the Violin Plot (and a general lesson about aggregation within Power BI)."
 hidden: false
 permalink: violin-plot-sampling
