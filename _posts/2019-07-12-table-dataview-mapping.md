@@ -111,7 +111,9 @@ Let's have a look at how the data gets represented in the way we're used to by s
     </figure>
 </div>
 
-This confirms that our fields are getting into the visual, and we see our groupings on the left, with measures on the right. **Note** that if we shift the measures around, this represenation still works as shown above with respect to splitting up measures and groupings. The data view itself will retain the order in which fields are added, although it's not guaranteed.
+This confirms that our fields are getting into the visual, and we see our groupings on the left, with measures on the right. **Note** that if we shift the measures around, this represenation still works as shown above with respect to splitting up measures and groupings. The data view itself will retain the order in which fields are added, although it's not guaranteed.  
+
+> **Update**: if you set a measure to *Do Not Summarize*, it's treated as a grouping and will show to the left of the dividing line also.
 
 Now, let's check the actual data view in our developer visual:
 
