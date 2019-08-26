@@ -38,7 +38,11 @@ Please bear in mind that if you're changing the version number from your current
 
 I've searched and found [this great example of a simple d3 line chart](https://www.d3-graph-gallery.com/graph/line_basic.html). We'll port this one into our custom visual.
 
-This reference chart also uses this [corresponding dataset](https://github.com/holtzy/data_to_viz/blob/master/Example_dataset/3_TwoNumOrdered.csv). I have added this dataset into a Power BI report and dataset to allow us to do a side-by-side comparison of the original and Power BI version. This dataset contains two fields:
+This reference chart also uses this [corresponding dataset](https://github.com/holtzy/data_to_viz/blob/master/Example_dataset/3_TwoNumOrdered.csv). I have added this dataset into a Power BI report and dataset to allow us to do a side-by-side comparison of the original and Power BI version. 
+
+> **Update**: [this is the direct link to the raw CSV data](https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv), if you wish to load directly using Power Query. Use this rather than the link above, or you can click on the *Raw* button in the page to get the URL for yourself - thanks to Mike Allen for pointing this out :)
+
+This dataset contains two fields:
 
 * Date (category)
 * Value (measure)
