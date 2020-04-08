@@ -70,7 +70,7 @@ What would be great, is if we could project this into lots of little charts, lik
 
 There are currently 20 DHBs in New Zealand - each value of DHB becomes a category, which in turn produces a chart with the same ranges (Date) and values (# Cumulative Cases) for their axes.
 
-Without spending a huge amount of time staring at it, we can easily see that some DHBs started reporting cases quite a way before others, some currently have a much slower rate of growth than others.
+Without spending a huge amount of time staring at it, we can easily see that some DHBs started reporting cases quite a way before others, and some currently have a much slower rate of growth than others.
 
 ----
 # How Can I Make these Myself?
