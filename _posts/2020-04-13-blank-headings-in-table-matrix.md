@@ -60,6 +60,8 @@ We can work around this by creating a new measure that is a duplicate of our exi
 $ Amount (Bars) = [$ Amount]
 ```
 
+**EDIT**: there's some additional things you can do with the measure to prevent the total being displayed in the table if you're using them. Refer to the [appendix down below](#appendix---handling-totals) for this.
+
 <div class="text-center">
     <figure class="figure">
         <img src="/assets/images/blank-table-heading/adding-independent-measure.png" class="figure-img img-fluid rounded">
@@ -118,3 +120,35 @@ It's worth re-stating that this second approach works currently, but may be shor
 Until next time,
 
 DM-P
+
+----
+
+## Appendix - Handling Totals
+
+Since publishing, I've had <a href = "https://twitter.com/InsightsMachine/status/1249786337911140352" target="_blank">this very useful feedback on Twitter</a>:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good idea. <a href="https://twitter.com/the_d_mp?ref_src=twsrc%5Etfw">@the_d_mp</a> Might be worth updating your blogpost to show how to use IF(HASONEVALUE to accomplish this in need. <a href="https://t.co/5qRbTIeDl3">pic.twitter.com/5qRbTIeDl3</a></p>&mdash; Jeff Weir(d) (@InsightsMachine) <a href="https://twitter.com/InsightsMachine/status/1249786337911140352?ref_src=twsrc%5Etfw">April 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+If we enabled totals for our example, this would currently look as follows:
+
+<div class="text-center">
+    <figure class="figure">
+        <img src="/assets/images/blank-table-heading/total-showing.png" class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">Artefact of not handling totals for redundant column</figcaption>
+    </figure>
+</div>
+
+Conditional formatting for totals is on the roadmap and should be with us soon, but we can fulfil Jeff's wishes by modifying our measure to consider the context we are in so that it doesn't display at the total level. For our example, this would look as follows:
+
+```
+$ Amount (Bars) = IF(HASONEVALUE(Data[Region]), [$ Amount])
+```
+
+Our table now looks a quite a bit nicer as a result, e.g.:
+
+<div class="text-center">
+    <figure class="figure">
+        <img src="/assets/images/blank-table-heading/total-not-showing.png" class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">Cleaning up our measure with a <b>HASONEVALUE</b> check</figcaption>
+    </figure>
+</div>
