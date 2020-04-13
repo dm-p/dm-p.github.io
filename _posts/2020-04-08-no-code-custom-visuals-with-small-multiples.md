@@ -513,7 +513,7 @@ We're now at a point where we can try our visual in Power BI.
 
 ### Safety First!
 
-Once you've laoded into Power BI, you might want to make further tweaks and try again, so before we plough on ahead, it's a good idea to make sure you've saved your chart if you haven't already. Note that saving your chart will keep it in your browser's session and this **does not guarantee permanent storage**. If you want to truly keep your chart for future revisions, you can get it as a `.chart` file by doing the following:
+Once you've loaded into Power BI, you might want to make further tweaks and try again, so before we plough on ahead, it's a good idea to make sure you've saved your chart if you haven't already. Note that saving your chart will keep it in your browser's session and this **does not guarantee permanent storage**. If you want to truly keep your chart for future revisions, you can get it as a `.chart` file by doing the following:
 
 * After saving your chart, click on the **Open** button in the toolbar
 * Find your chart in the list, and click the **Download** button:
