@@ -64,13 +64,13 @@ At the end of the webinar, we have a short look at "v2" of the visual, which pro
 
 I'm also putting a lot of effort into documentation and the visual will have its own dedicated website, with much more detail than exists currently.
 
-Mike at PowerBI.tips has been alpha-testing the visual and provided me with some really valuable feedback. In re-working some of the editor UI, I had another idea, which casued me to disappear down a rabbit-hole of rapid prototyping and might cause a small delay to v2 of this visual, but I'm hoping what this distraction could potentially be able to offer might make up for that...
+Mike at PowerBI.tips has been alpha-testing the visual and provided me with some really valuable feedback. In re-working some of the editor UI, I had another idea, which caused me to disappear down a rabbit-hole of rapid prototyping and might cause a small delay to v2 of this visual, but I'm hoping what this distraction could potentially be able to offer might make up for that...
 
 ---
 
 ## "Deneb" - Visualisation Grammar Prototype
 
-Power BI has support for the <a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-r-visuals?WT.mc_id=DP-MVP-5003712" target="_blank">R</a> and <a href="https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals?WT.mc_id=DP-MVP-5003712" target="_blank">Python</a> languages through their core visual set. However, these, reply on a local (or hosted) interpreter, have a "cold start" time to execute the code and render the result as an image.
+Power BI has support for the <a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-r-visuals?WT.mc_id=DP-MVP-5003712" target="_blank">R</a> and <a href="https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals?WT.mc_id=DP-MVP-5003712" target="_blank">Python</a> languages through their core visual set. However, these, rely on a local (or hosted) interpreter, have a "cold start" time to execute the code and render the result as an image.
 
 Another option we're fortunate for these days is <a href="https://charticulator.com/" target="_blank">Charticulator</a>, which I've [previously blogged about](/examples/charticulator-sm). It's an amazing tool that provides users with a GUI that they can use to design a bespoke visual and then export it as a packaged Power BI custom visual.
 
