@@ -114,7 +114,7 @@ I have a little way to go with this one, but I'm hoping to have it available for
 
 ---
 
-## RADACAD Course - Introduction to Developing Custom Visuals
+## RADACAD Course - Introduction to Developing Power BI Visuals
 
 And one last thing: Power BI visuals development is highly rewarding, but the learning curve is steeeeeeeeep, and there's not a lot of dedicated resources out there. I'm fortunate that the RADACAD team supported my proposal to build a course for new custom visual developers (and maybe existing ones, too!) and my <a href="https://learn.radacad.com/course/introduction-to-developing-power-bi-visuals/?ref=667" target="_blank">Introduction to Developing Power BI Visuals</a> course has just been published in their academy:
 
