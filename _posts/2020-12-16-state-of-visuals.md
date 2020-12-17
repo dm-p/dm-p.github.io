@@ -74,7 +74,7 @@ Power BI has support for the <a href="https://docs.microsoft.com/en-us/power-bi/
 
 Another option we're fortunate for these days is <a href="https://charticulator.com/" target="_blank">Charticulator</a>, which I've [previously blogged about](/examples/charticulator-sm). It's an amazing tool that provides users with a GUI that they can use to design a bespoke visual and then export it as a packaged Power BI custom visual.
 
-There's tons of other ways to create charts on the web, and one I'm hugely interested in is <a href="https://vega.github.io/vega/" target="_blank">Vega</a>, and it's higher-order companion: <a href="https://vega.github.io/vega-lite/" target="_blank">Vega-Lite</a>. Both of these frameworks allow folks to compose a specification using JSON-based _"visualisation grammar"_, which in turn directs the Vega compiler to generate visuals.
+There's tons of other ways to create charts on the web, and one I'm hugely interested in is <a href="https://vega.github.io/vega/" target="_blank">Vega</a>, and it's higher-level companion: <a href="https://vega.github.io/vega-lite/" target="_blank">Vega-Lite</a>. Both of these frameworks allow folks to compose a specification using JSON-based _"visualisation grammar"_, which in turn directs the Vega compiler to generate visuals.
 
 As the Vega tooling is web-embeddable, it's possible to use it to develop and create a Power BI custom visual, and <a href="https://github.com/microsoft/vegalite-for-powerbi" target="_blank">Microsoft has an example repository for that</a>. For someone who wants to build a dedicated custom visual, this is an awesome kick-start and has huge benefits, but for someone who wants to build a specification _inside_ Power BI, it's still quite an overhead.
 
