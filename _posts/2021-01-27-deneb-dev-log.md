@@ -163,7 +163,7 @@ Here's a sample workbook with a slightly more customised version of our sample b
 
 ---
 
-I'm planning to focus more on adding the remaining features over the coming few weeks, so hopefully we can get this out to a wider audience.
+I'm planning to focus more on adding the remaining features over the coming few weeks, so hopefully we can get this out to a wider audience for beta-testing very soon.
 
 Thanks for reading! Until next time,
 
