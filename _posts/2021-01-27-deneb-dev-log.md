@@ -5,7 +5,7 @@ author: daniel
 categories: [Custom Visual, Prototype]
 tags: [deneb, vega]
 image: "assets/images/deneb/proto/70_splash.png"
-description: 'Progress update for Jan 2021 on "Deneb", including some new changes that re moving towards improving integration with Power BI.'
+description: 'Progress update for Jan 2021 on "Deneb", including some new changes that are moving towards improving integration with Power BI.'
 featured: false
 hidden: false
 toc: false
@@ -93,7 +93,7 @@ Well, the Settings pane in build 70 also has this additional section:
 
 Enabling these will allow you to utilise that particular interactivity function of Power BI, **with some caveats**:
 
--   The Vega and Vega-Lite toolting is incredibly configurable, so there are going to be many use cases that don't work, because I'm not able to test them all. We will need to look at these on a case-by-case basis and see how we can potentially support them.
+-   The Vega and Vega-Lite tooling is incredibly configurable, so there are going to be many use cases that don't work, because I'm not able to test them all. We will need to look at these on a case-by-case basis and see how we can potentially support them.
 
 -   I'm doing as much as I can behind the scenes when your view is generated but due to the flexible design potential, there might be some additional setup required in your spec. This is due to how the Vega tooling works, and what you might want to do as a creator (I will highlight these requirements in each section accordingly).
 
