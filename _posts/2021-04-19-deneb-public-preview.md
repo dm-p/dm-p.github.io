@@ -110,7 +110,7 @@ I'll also be looking to get more functionality chipped-off before then:
 
 ---
 
-So, there's still a little bit more to do before we get to general availability through AppSource. Although, it has taken me a long time to get to this point, and I'm incredibly grateful for the support of <a href="https://twitter.com/LucidInsightsNZ" target="_blank">Jonathan Kapoor</a>, <a href="https://twitter.com/KerryKolosko" target="_blank">Kerry Kolosko</a>, <a href="https://twitter.com/Mike_R_Carlo" target="_blank">Mike Carlo</a>, <a href="https://twitter.com/HavensBI" target="_blank">Tom Martens</a> & others for their willingness to alpha test Deneb and provide valuable feedback.
+So, there's still a little bit more to do before we get to general availability through AppSource. Although, it has taken me a long time to get to this point, and I'm incredibly grateful for the support of <a href="https://twitter.com/LucidInsightsNZ" target="_blank">Jonathan Kapoor</a>, <a href="https://twitter.com/KerryKolosko" target="_blank">Kerry Kolosko</a>, <a href="https://twitter.com/Mike_R_Carlo" target="_blank">Mike Carlo</a>, <a href="https://twitter.com/HavensBI" target="_blank">Reid Havens</a>, <a href="https://twitter.com/tommartens68" target="_blank">Tom Martens</a> & others for their willingness to alpha test Deneb and provide valuable feedback.
 
 And now it's your turn to have a go - I hope that the results of our work can help you with yours. And, if you have anything cool you want to show me, please let me know! The whole point of Deneb is to allow people to unlock their creativity within Power BI, and I'm really looking forward to seeing what comes next 😀
 
