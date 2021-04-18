@@ -4,21 +4,21 @@ title: "State of (My) Visuals - Dec 2020"
 author: daniel
 categories: [Custom Visual, Learning, Status]
 tags:
-  [
-    smlc,
-    smallmultiples,
-    violinplot,
-    html,
-    htmlcontent,
-    deneb,
-    vega,
-    coffee,
-    course,
-  ]
+    [
+        smlc,
+        smallmultiples,
+        violinplot,
+        html,
+        htmlcontent,
+        deneb,
+        vega,
+        coffee,
+        course,
+    ]
 image: "assets/images/2012-visuals.png"
 description: "Farewell SMLC, hello HTML Content (and maybe something else...)"
-featured: true
-hidden: true
+featured: false
+hidden: false
 toc: true
 permalink: viz_202012
 beforetoc: I've been saving this one up for a while, and I apologise for the lack of blogging activity over the last few months. I have definitely been busy, and thought I'd better aggregate some of the postings I've been making elsewhere, and provide some updates as to what's been going on in my world of visuals & what's coming up from me.
@@ -58,9 +58,9 @@ But for anyone who wants to know more about how it works, or see it in action, t
 
 At the end of the webinar, we have a short look at "v2" of the visual, which provides the option to move editing into the visual rather than the data model. You'll still be able to use it in the way you do currently if you prefer, but if you want to get even more expressive, there will be some rather unique features that this new functionality will offer (amongst other things):
 
-- Editors for the HTML component and the visual stylesheet, allowing more control over the "document".
-- Support for <a href="https://handlebarsjs.com/" target="_blank">handlebars</a> template syntax, to control the position of measures and columns added to the visual.
-- Some helper functions to boost the standard ones offered by handlebars.
+-   Editors for the HTML component and the visual stylesheet, allowing more control over the "document".
+-   Support for <a href="https://handlebarsjs.com/" target="_blank">handlebars</a> template syntax, to control the position of measures and columns added to the visual.
+-   Some helper functions to boost the standard ones offered by handlebars.
 
 I'm also putting a lot of effort into documentation and the visual will have its own dedicated website, with much more detail than exists currently.
 
