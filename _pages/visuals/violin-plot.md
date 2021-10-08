@@ -34,7 +34,7 @@ The shape around the combo plot represents the kernel density plot and shows tha
 
 #### Support
 
-This visual is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) and is <a href="https://github.com/dm-p/powerbi-visuals-violin-plot" target="_blank">free and open source</a>. I develop this visual in my free time, so I'll try and provide support where I can.
+This visual is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) and is <a href="https://github.com/dm-p/powerbi-visuals-violin-plot" target="_blank">free and open source</a>. I develop this visual in my free time, so I'll try and provide support where I can, and this is managed <a href="https://github.com/dm-p/powerbi-visuals-violin-plot/issues" target="_blank">via the issues tracker in the Violin Plot's GitHub repository</a>.
 
 If you still need assistance after reading the documentation and you've checked the Known Issues for your version, you can see if anything similar has been raised in the [issues list](https://github.com/dm-p/powerbi-visuals-violin-plot/issues).
 
