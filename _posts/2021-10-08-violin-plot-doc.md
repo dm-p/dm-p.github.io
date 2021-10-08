@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
+author: daniel
 title: "Violin Plot: Custom Visual for Power BI"
 permalink: /violin-plot
-toc: true
+toc: false
 ---
 
 [Get it from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381947) (Power BI Marketplace)
