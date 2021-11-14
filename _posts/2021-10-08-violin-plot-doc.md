@@ -4,6 +4,7 @@ author: daniel
 title: "Violin Plot: Custom Visual for Power BI"
 permalink: /violin-plot
 toc: false
+hidden: true
 ---
 
 [Get it from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381947) (Power BI Marketplace)
@@ -22,10 +23,10 @@ This custom visual gives you the means to generate a violin plot, with three acc
 
 The box plot illustrates:
 
--   The range between the first and third quartiles (box)
--   Median (white line)
--   Mean (white circle)
--   5% and 95% confidence ranges (whiskers)
+- The range between the first and third quartiles (box)
+- Median (white line)
+- Mean (white circle)
+- 5% and 95% confidence ranges (whiskers)
 
 The barcode plot shows the individual data points rather than a summary of their distribution. You can apply additional annotations for median & quartiles, should you wish to see these as well (more on this in the [Getting Started](#getting-started) section below).
 
@@ -53,9 +54,9 @@ Violin Plot Privacy Policy, as of 1 December 2018:
 
 The bare minimum you need for a plot is:
 
--   A measure or value to analyse (add to the **Measure Value** data role).
--   A field to represent the individual level of each value (add to the **Sampling** data role).
--   Optionally, you can add a **Category** field to generate a violin plot for each value group.
+- A measure or value to analyse (add to the **Measure Value** data role).
+- A field to represent the individual level of each value (add to the **Sampling** data role).
+- Optionally, you can add a **Category** field to generate a violin plot for each value group.
 
 ##### About Sampling
 
@@ -99,12 +100,12 @@ If specifying a category, the visual will sort in ascending order of category na
 
 Current options are:
 
--   Category
--   Samples
--   Median
--   Mean
--   Maximum
--   Minimum
+- Category
+- Samples
+- Median
+- Mean
+- Maximum
+- Minimum
 
 For any sort value, you can specify **Ascending** or **Descending** order.
 
@@ -210,8 +211,8 @@ Note that for the column plot, mean, median and quartiles can be combined and fo
 
 This visual contains 2 tooltip-related property menus:
 
--   **Tooltip** (the standard Power BI menu)
--   **Default Tooltip Details** (known as the Tooltip menu in versions of this visual prior to 1.2.0)
+- **Tooltip** (the standard Power BI menu)
+- **Default Tooltip Details** (known as the Tooltip menu in versions of this visual prior to 1.2.0)
 
 Power BI Desktop (March 2019) [introduced improved tooltip formatting options](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-march-2019-feature-summary/#tooltipFormatting). We recently saw the [introduction of report page tooltips as well](https://docs.microsoft.com/en-us/power-bi/desktop-tooltips).
 
@@ -225,20 +226,20 @@ If using a Default-type tooltip (i.e. not a report page) then the violin plot-sp
 
 The **Default Tooltip Details** menu provides a number of data points you can enable or disable as required:
 
--   Maximum & Minimum (Default)
--   Span (Min to Max)
--   Median (Default)
--   Mean (Default)
--   Standard Deviation (Default)
--   Upper & Lower Quartiles
--   Inter Quartile Range
--   Whisker (Confidence) Values
--   KDE Bandwidth (Refer to [Bandwidth](#bandwidth) above for more details)
+- Maximum & Minimum (Default)
+- Span (Min to Max)
+- Median (Default)
+- Mean (Default)
+- Standard Deviation (Default)
+- Upper & Lower Quartiles
+- Inter Quartile Range
+- Whisker (Confidence) Values
+- KDE Bandwidth (Refer to [Bandwidth](#bandwidth) above for more details)
 
 If using Barcode combo plot:
 
--   Data Point Value
--   Number of Samples with Highlighted Value
+- Data Point Value
+- Number of Samples with Highlighted Value
 
 #### Legend
 
@@ -268,15 +269,15 @@ The functionality is outlined below, but first, some things to consider...
 
 Some of this will make sense as you read on further, but please read this first to ensure that you're aware of the performance implications of Additional Data Fetching.
 
--   **Power BI will always re-query data when properties are changed**, as they may contain conditional formatting. If you are customizing your visual's appearance, it is best to disable the **Additional Data Fetching** property.
+- **Power BI will always re-query data when properties are changed**, as they may contain conditional formatting. If you are customizing your visual's appearance, it is best to disable the **Additional Data Fetching** property.
 
--   Enabling **Additional Data Fetching** causes Power BI to recursively run filtered queries against your dataset rather than a single `TOP N` for the standard 30K cap.
+- Enabling **Additional Data Fetching** causes Power BI to recursively run filtered queries against your dataset rather than a single `TOP N` for the standard 30K cap.
 
-    -   These can be much more expensive than the standard (limited) query.
-    -   So, even though the Violin Plot might cap the row count to something sensible via limiting the number of fetches, if your query has to scan a table of extremely high cardinality then this still may result in very slow data fetches.
-    -   There is not much more that we can do about this from the visual side of things, as all data access is delegated by Power BI (for good reason).
+  - These can be much more expensive than the standard (limited) query.
+  - So, even though the Violin Plot might cap the row count to something sensible via limiting the number of fetches, if your query has to scan a table of extremely high cardinality then this still may result in very slow data fetches.
+  - There is not much more that we can do about this from the visual side of things, as all data access is delegated by Power BI (for good reason).
 
--   Capped data may not represent the true distribution and/or modality. If it's possible to pre-emptively filter or slice your data, or use additional visual instances, this can help mitigate such challenges.
+- Capped data may not represent the true distribution and/or modality. If it's possible to pre-emptively filter or slice your data, or use additional visual instances, this can help mitigate such challenges.
 
 ##### Fetch Progress
 
