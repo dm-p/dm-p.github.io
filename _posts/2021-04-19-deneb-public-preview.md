@@ -6,8 +6,7 @@ categories: [Custom Visual, Preview]
 tags: [deneb, vega]
 image: "assets/images/deneb/preview/preview_banner.png"
 description: "Here goes..."
-featured: true
-hidden: true
+featured: false
 toc: false
 permalink: deneb_public_preview
 ---
@@ -54,11 +53,11 @@ This flips the "Power BI way" of doing things on its head: rather than picking a
 
 ## What Deneb Does
 
--   **Packages-up both Vega and Vega-Lite parsers and runtimes**. You just need to specify which language you're using <a href="https://deneb-viz.github.io/visual-editor#settings-tab" target="_blank">in the settings tab</a>. There's also no external dependencies, like there are for R and Python visuals, so if your visual works for you, it should work exactly the same for all your users.
--   **Binds columns or measures you add to the visual as a named dataset**. For consistency with the R and Python visuals, this is also named `dataset`. You can read more about the inner-workings of that part <a href="https://deneb-viz.github.io/visual-dataset-binding" target="_blank">on Deneb's site</a>.
--   **Provides an editing environment for a JSON specification**. There's an editor for the main specification, and another for the top-level configuration (which allows you to abstract some of the cosmetic elements of your work).
--   **Provides (some) interactivity bindings with Power BI**. And hopefully more later on. Right now, <a href="https://deneb-viz.github.io/interactivity-tooltips" target="_blank">we have tooltips working</a>. Under the right conditions, report page tooltips work as well.
--   **Provides Some In-Built Examples** so that you can have a go at some simple visualisations straight away. You'll be able to map columns and measures to placeholders and embed these into the specification as references. Soon, you'll be able to create your own templates that others can import through a similar mechanism.
+- **Packages-up both Vega and Vega-Lite parsers and runtimes**. You just need to specify which language you're using <a href="https://deneb-viz.github.io/visual-editor#settings-tab" target="_blank">in the settings tab</a>. There's also no external dependencies, like there are for R and Python visuals, so if your visual works for you, it should work exactly the same for all your users.
+- **Binds columns or measures you add to the visual as a named dataset**. For consistency with the R and Python visuals, this is also named `dataset`. You can read more about the inner-workings of that part <a href="https://deneb-viz.github.io/visual-dataset-binding" target="_blank">on Deneb's site</a>.
+- **Provides an editing environment for a JSON specification**. There's an editor for the main specification, and another for the top-level configuration (which allows you to abstract some of the cosmetic elements of your work).
+- **Provides (some) interactivity bindings with Power BI**. And hopefully more later on. Right now, <a href="https://deneb-viz.github.io/interactivity-tooltips" target="_blank">we have tooltips working</a>. Under the right conditions, report page tooltips work as well.
+- **Provides Some In-Built Examples** so that you can have a go at some simple visualisations straight away. You'll be able to map columns and measures to placeholders and embed these into the specification as references. Soon, you'll be able to create your own templates that others can import through a similar mechanism.
 
 <div class="text-center">
     <figure class="figure">
@@ -104,9 +103,9 @@ Firstly, I'd like to make sure that the preview works well for a wider audience 
 
 I'll also be looking to get more functionality chipped-off before then:
 
--   Ability to generate a JSON template that can be imported by other users
--   Additional APIs for Power BI interactivity, such as data point selection and the context menu
--   ...and anything else that comes up and needs addressing
+- Ability to generate a JSON template that can be imported by other users
+- Additional APIs for Power BI interactivity, such as data point selection and the context menu
+- ...and anything else that comes up and needs addressing
 
 ---
 
