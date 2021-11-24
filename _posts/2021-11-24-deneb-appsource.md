@@ -49,13 +49,13 @@ Oh... I almost forgot!
 <br/>
 <br/>
 
-**I'm so, so happy to announce that Deneb is <a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/coacervolimited1596856650797.deneb" target="_blank">now available in AppSource!</a> 🎉🎉🎉🎉**
+**I'm so, so happy to announce that Deneb 1.0.0 is <a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/coacervolimited1596856650797.deneb" target="_blank">now available in AppSource!</a> 🎉🎉🎉🎉** You'll now be able to find it in Power BI Desktop when you add a visual.
 
 <br/>
 <br/>
 <br/>
 
-**And it's certified! <img src="/assets/images/badge_pbi.svg" title="Power BI Certified" alt="Power BI Certified" />**
+**And it's getting certified! <img src="/assets/images/badge_pbi.svg" title="Power BI Certified" alt="Power BI Certified" />** All the tests have passed and this status should take effect within the next 2 weeks (so a little bit of a longer wait for anyone who needs the badge before they can load the visual into their reports).
 
 <br/>
 <br/>
