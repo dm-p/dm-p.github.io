@@ -5,11 +5,12 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
+}
+
+.figure-caption {
+  margin: 0% 10%;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+@import "syntax", "starsnonscss";
