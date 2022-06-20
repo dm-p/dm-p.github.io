@@ -13,7 +13,7 @@ permalink: deneb-chart-switcher
 
 As many of you may know, when I'm not tinkering with Power BI visuals on my own time, I do a lot of work with <a href="https://www.discoverei.com/" target="_blank">DiscoverEI</a>. A common scenario for our customers can involve visualising a wide range of <a href="https://en.wikipedia.org/wiki/Analyte" terget="_blank">analytes</a> for their environmental reports.
 
-Our design goals are to make the processes as straightforward as possible for users, so we typically model our reports using fact tables that include the analaytes of interest as part of their granularity, and then have a dimension table for the analyte details, which makes slicing and switching really easy for report viewers.
+Our design goals are to make the processes as straightforward as possible for users, so we typically model our reports using fact tables that include the analytes of interest as part of their granularity, and then have a dimension table for the analyte details, which makes slicing and switching really easy for report viewers.
 
 What's often quite complicated with this process is that not all analytes are created equal, even though the overall 'shape' of the data is the same:
 
@@ -56,7 +56,7 @@ Their preferences would look something like the following (although there are ma
 <div class="text-center">
     <figure class="figure">
         <img src="/assets/images/deneb/chart-switcher/location-preference-sample-data.png" class="figure-img img-fluid rounded">
-        <figcaption class="figure-caption">A graphic of a table, showing some New Zealand locations, and the preference of chart that each owner woul dlike when their location is selected in the report slicer. Chart Types are one of, <i>"Box Plot"</i>, <i>"Density"</i> or <i>"Heatmap"</i></figcaption>
+        <figcaption class="figure-caption">A graphic of a table, showing some New Zealand locations, and the preference of chart that each owner would like when their location is selected in the report slicer. Chart Types are one of, <i>"Box Plot"</i>, <i>"Density"</i> or <i>"Heatmap"</i></figcaption>
     </figure>
 </div>
 
