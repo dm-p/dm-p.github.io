@@ -23,7 +23,7 @@ What's often quite complicated with this process is that not all analytes are cr
 
 ## What We'd Love to Do
 
-So, for these situations, what would be like to be able to do? The idea of data-driven chart selection sound pretty cool:
+So, for these situations, what would be like to be able to do? The idea of data-driven chart selection sounds pretty cool:
 
 - By selecting a particular analyte in a slicer...
 - ...the main chart that we're using could change into a more optimal one...
