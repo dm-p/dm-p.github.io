@@ -6,8 +6,8 @@ categories: [Custom Visual, Release]
 tags: [deneb, vega, vega-lite]
 image: "assets/images/deneb/deneb_banner.png"
 description: "It's been a while since we've had an update, so... here's an update."
-featured: true
-hidden: true
+featured: false
+hidden: false
 toc: false
 permalink: deneb_nov_2021
 ---
