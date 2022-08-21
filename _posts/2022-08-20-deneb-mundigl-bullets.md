@@ -812,4 +812,6 @@ I certainly loved learning about this variation of a bullet chart, and how I mig
 
 If you have any variations or evolutions on this work, then I'd love to see how you're getting on, or even if you have templates or your own posts to share your findings.
 
-Happy
+Happy visualising!
+
+DM-P
