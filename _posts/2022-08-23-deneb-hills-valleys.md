@@ -8,7 +8,7 @@ description: "These are very useful plots, but they come with some tricky requir
 image: "assets/images/deneb/hill-valley/finished-recipe.png"
 featured: false
 toc: false
-permalink: deneb_hill_Valley
+permalink: deneb_hill_valley
 ---
 
 > It's hard to find the exact name for these types of charts, but <a href="https://twitter.com/InsightsMachine" target="_blank">Jeff Weir</a> often refers to them as "hill and valley", and I'm quite taken with that. Either way, they're a type of line/area chart that uses conditionally shaded areas to highlight variance (typically actual to target). They're seen a lot in visuals that adhere to <a href="https://www.ibcs.com/" target="_blank">IBCS</a>. If anyone wishes to provide me with some guidance on the "right" way to name them, I'm very happy to amend the post accordingly :)
