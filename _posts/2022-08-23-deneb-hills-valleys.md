@@ -15,7 +15,7 @@ permalink: deneb_hill_valley
 >
 > I've been meaning to write this one up for a long time, mainly because upon working it out with Deneb earlier this year, <a href="https://powerbi.microsoft.com/en-us/blog/power-bi-march-2022-feature-summary/#post-18792-_Toc98245362:~:text=before%20general%20availability.-,Error%20bars,-You%20can%20now" target="_blank">the error bar functionality for core visuals was introduced as a public preview</a> came out, and then I tried focus on solving it natively.
 >
-> **[DISCLAIMER]** this is a walkthrough, but it's a lot of work. I'm honestly not sure if there's an audience for this type of content, but I'll let you decide as to whether it floats your boat. It's was certainly interesting challenge for me and I've learned some neat tricks that might be handy for other folks learning to "think visually". The resulting specification and template could benefit from a lot more work, and this article focuses specifically on the aspect of getting the areas and lines right.
+> **[DISCLAIMER]** this is a walkthrough, but it's a lot of work. I'm honestly not sure if there's an audience for this type of content, but I'll let you decide as to whether it floats your boat. It was certainly interesting challenge for me and I've learned some neat tricks that might be handy for other folks learning to "think visually". The resulting specification and template could benefit from a lot more work, and this article focuses specifically on the aspect of getting the areas and lines right.
 
 ---
 
@@ -60,7 +60,7 @@ We have a regular old line chart, with our [Month] on the x-axis, and measures f
     </figure>
 </div>
 
-If we create a measure to obtain the lowest value of the two measures for each month and apply this to the upper bound of the error band for our [Sales] measure in the analytics pane (refer to <a href="http://www.informationmagician.com/shaded-area-between-two-lines/" target="_blank">Sven's excellent post</a> for a walkthough on this), we can see where things start to go wrong (and I've added the measure as a line to help accentuate the effect further):
+If we create a measure to obtain the lowest value of the two measures for each month and apply this to the upper bound of the error band for our [Sales] measure in the analytics pane (refer to <a href="http://www.informationmagician.com/shaded-area-between-two-lines/" target="_blank">Sven's excellent post</a> for a walkthrough on this), we can see where things start to go wrong (and I've added the measure as a line to help accentuate the effect further):
 
 <div class="text-center">
     <figure class="figure">
@@ -96,11 +96,11 @@ As this point, if I'm to solve this with core visuals, I need to find a way to c
 
 I did try this first, and I'm sure that someone may be able to do this by using date-level rows and some measures. Sometimes we don't always succeed and I'm going to share what I <i>do</i> know, and how we can solve it with Deneb and Vega-Lite, which allows more more control over our visual dataset via transforms. Even though the row context is the same, we can create the additional rows in Vega-Lite with the right approach.
 
-As usual, I'd encoourage you to read the implementation below, to see where I'm going with the approach (and maybe even find a better way to do it), but if you want the template to start working with, <a href="https://gist.github.com/dm-p/7976dc964437124ecf6830a74d9b2e03" target="_blank">it's available in this Gist</a>.
+As usual, I'd encourage you to read the implementation below, to see where I'm going with the approach (and maybe even find a better way to do it), but if you want the template to start working with, <a href="https://gist.github.com/dm-p/7976dc964437124ecf6830a74d9b2e03" target="_blank">it's available in this Gist</a>.
 
 > A lot of time went into also researching and developing the linear equation work we're going to cover below in DAX, but have not opted to continue, due to the challenges with visualising this data using the core visuals. However, I appreciate that my DAX knowledge is not the best, so someone else may well be able to excel where I have failed... so maybe it won't go to waste.
 >
-> The DAX approach can also be used in lieu of the top-level Vega-Lite transforms, if you prefer to keep everyting in-model, but doing it in Vega-Lite makes templating easier, as there are many less dependencies to worry about. [I've added this as a postscript after the main article](#postscript-attempting-the-linear-algebra-via-dax), so feel free to read and see if you can make it work. I'd love to know if you do!
+> The DAX approach can also be used in lieu of the top-level Vega-Lite transforms, if you prefer to keep everything in-model, but doing it in Vega-Lite makes templating easier, as there are many less dependencies to worry about. [I've added this as a postscript after the main article](#postscript-attempting-the-linear-algebra-via-dax), so feel free to read and see if you can make it work. I'd love to know if you do!
 
 ---
 
@@ -129,7 +129,7 @@ Taking our example above, and focusing on one data point (October) and its subse
     </figure>
 </div>
 
-It's really easy to find out how to calculate the intersection between two lines. Its debatable as to whether it's easy to understand, but <a href="https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection" target="_blank">I'll leave the Wikipedia article on it here</a> for those who are interested, and for those who aren't, I'll apply it to the example here.
+It's really easy to find out how to calculate the intersection between two lines. It's debatable as to whether it's easy to understand, but <a href="https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection" target="_blank">I'll leave the Wikipedia article on it here</a> for those who are interested, and for those who aren't, I'll apply it to the example here.
 
 To summarise this, we can use the equation of a straight line:
 
@@ -313,7 +313,7 @@ As we can see, where we didn't hit the target, this still appears from behind th
 
 ## Layer 3: foreground masking area (with intersection points)
 
-We're now onto the tricky bit - we want this layer to be drawn above above the actual layer (2), but contain the intersection points that may exist, in addition to the rows we already have. We'll use transforms for this - and there will be a few - so that we can step through the stages more easily.
+We're now onto the tricky bit - we want this layer to be drawn above the actual layer (2), but contain the intersection points that may exist, in addition to the rows we already have. We'll use transforms for this - and there will be a few - so that we can step through the stages more easily.
 
 #### Initial work
 
@@ -645,7 +645,7 @@ In our dataset, all existing fields are cloned, and we can see there are duplica
 
 #### Resolving the final x/y values for our interpolated area
 
-Our last step on a very long journey for this layer's transforms effectively selects the correct value to use for the x and y encodings that we need for our area. It's been a slog to get here, but hopefully illustrates the scale of the challenge we're facing to get these nice shaded areas...
+Our last step on a very long journey for this layer's transforms effectively selects the correct value to use for the x and y encodings that we need for our area. It's been a slog to get here, but hopefully illustrates the scale of the challenge we're facing to get these nice, shaded areas...
 
 We will add our last two calculations to the `transform` array:
 
@@ -675,9 +675,9 @@ We will add our last two calculations to the `transform` array:
 
 Both of these simply look at the value in our `key` column, and return the correct value to use:
 
-- For `x`, this is the value of the [Month] column if it corresponds with an orginal row from our dataset. If it doesn't we use the calculated intersection value (`intersect_x`).
+- For `x`, this is the value of the [Month] column if it corresponds with an original row from our dataset. If it doesn't we use the calculated intersection value (`intersect_x`).
 
-- For `y` this is the value of the `lowest_value` calculation if it corresponds with an orginal row from our dataset. If it doesn't we use the calculated intersection value (`intersect_y`).
+- For `y` this is the value of the `lowest_value` calculation if it corresponds with an original row from our dataset. If it doesn't we use the calculated intersection value (`intersect_y`).
 
 And the final two columns in our dataset is what our work has yielded, e.g.:
 
@@ -803,7 +803,7 @@ Again, we apply a `style` for our line:
 }
 ```
 
-The intention here is that we have a more solid black line, and its sligntly thicker than our target line.
+The intention here is that we have a more solid black line, and it's slightly thicker than our target line.
 
 ###### Specification tab
 
@@ -889,7 +889,7 @@ As mentioned above, this has been an interesting study for me, and this is proba
 
 This is definitely a lot of effort to go to, but <a href="https://gist.github.com/dm-p/7976dc964437124ecf6830a74d9b2e03" target="_blank">hopefully the template for this work</a> may help expedite this for anyone who wishes to push it further, or come up with more effective and efficient means to replicate the approach. Please let me know if you do find anything out, of if you're able to use this in your own designs - as always, I'd love to hear from you if you're getting stuff done with Deneb.
 
-Thanks as awlays for reading,
+Thanks as always for reading,
 
 DM-P
 
@@ -901,11 +901,11 @@ DM-P
 
 > As discussed above, you can do the linear algebra with DAX, and because this formed a lot of my initial research for this article, I have left it in for anyone who may find it useful, or wish to attempt (and hopefully succeed) where I have failed.
 >
-> I have a feeling that this could be done more elegantly by using calculation groups, but we're already throwing enough at you withough having to worry about them too. For the purposes of illustration, we'll do everything with regular measures inside Power BI Desktop.
+> I have a feeling that this could be done more elegantly by using calculation groups, but we're already throwing enough at you without having to worry about them too. For the purposes of illustration, we'll do everything with regular measures inside Power BI Desktop.
 
 I have a simple data model, but key to this are the following features:
 
-- I have a [Date] table in which I have a [Month] column. This gives all date records the start of month value as a date date type, e.g.:
+- I have a [Date] table in which I have a [Month] column. This gives all date records the start of month value as a date type, e.g.:
 - I have a [Sales] table with all of my sales transactions.
 - There are some other dimension tables, but they aren't relevant to the calculations we're going to be doing (and they should support slicing and dicing by these other dimensions).
 
