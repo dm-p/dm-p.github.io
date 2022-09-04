@@ -108,7 +108,7 @@ Let's say we have the following bar chart. This chart uses a `text` mark to make
 
 ## Adding a gradient
 
-<br/>We've fixed the bar and the location label colours at `blue` and `white` respectively, but let's say we want to make our bar colour assignment a gradient, like below? We can do this by swapping the `color` property in our bar mark for a `color` encoding channel, e.g.:
+We've fixed the bar and the location label colours at `blue` and `white` respectively, but let's say we want to make our bar colour assignment a gradient, like below? We can do this by swapping the `color` property in our bar mark for a `color` encoding channel, e.g.:
 
 ```
   ...
