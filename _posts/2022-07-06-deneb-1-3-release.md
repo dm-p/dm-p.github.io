@@ -6,8 +6,6 @@ categories: [Custom Visual, Development]
 tags: [deneb, vega, vega-lite]
 description: "Deneb 1.3 is now generally available in AppSource. Here's a rundown on what's new, and what's happening next."
 image: "assets/images/deneb/1.3/deneb_1_3_banner.png"
-featured: true
-hidden: true
 toc: false
 permalink: deneb_1_3
 ---
