@@ -16,5 +16,58 @@
   margin-left: 15%;
 }
 
+.meeting-title {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.contact-form {
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin-top: 24pt;
+  margin-bottom: 24pt;
+  padding-top: 12pt;
+  padding-bottom: 12pt;
+}
+
+.consult-row {
+  width: 90%;
+  padding-bottom: 24pt;
+  margin: auto;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.consult-row-first {
+  margin-top: 48pt;
+}
+
+.consult-row-final {
+  margin-bottom: 48pt;
+}
+
+.consult-book-link {
+  text-align: right;
+}
+
+.contact-form-submit,
+.book-button {
+  margin-top: 12pt;
+  background-color: #ce6c47;
+  border-color: #ce6c47;
+}
+
+.contact-form-submit:hover,
+.book-button:hover {
+  background-color: #ce6c47dd;
+  border-color: #ce6c47;
+}
+
+.book-button {
+  margin-top: 6pt;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "syntax", "starsnonscss";
