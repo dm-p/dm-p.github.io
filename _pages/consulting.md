@@ -4,6 +4,8 @@ title: Remote Assistance and Consulting
 permalink: /consulting
 ---
 
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
 With substantial knowledge and experience in the field of Power BI visual development, [Daniel](about) is recognised in the Power BI community as a Microsoft MVP and Power BI Community Super User. He offers free and open-source custom visuals for Power BI through AppSource, including the versatile <a href="https://deneb-viz.github.io" target="_blank">Deneb</a>, which allows for the creation of custom visuals within Power BI using the <a href="https://vega.github.io/vega/" target="_blank">Vega</a> and <a href="https://vega.github.io/vega-lite" target="_blank">Vega-Lite</a> languages.
 
 If you need one-on-one assistance with your Power BI custom visual development projects, Daniel is available for remote consulting to offer support, provide a second opinion, or help bring your ideas to life. Browse the options below to find the service that meets your needs, and book directly using the provided link. Meetings are held through Microsoft Teams.
@@ -20,13 +22,10 @@ If you need one-on-one assistance with your Power BI custom visual development p
     </div>
     <div class="col-md-2 consult-book-link">
         <!-- Calendly link widget begin -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <a class="btn btn-primary book-button" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dm-p/initial-qna-30?hide_landing_page_details=1'});return false;">Book online</a>
+        <a class="btn btn-primary book-button" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dm-p/initial-qna-30?hide_landing_page_details=1&primary_color=ce6c47'});return false;">Book online</a>
         <!-- Calendly link widget end -->
     </div>
 </div>
-
 <div class="row justify-content-between consult-row consult-row-final">
     <div class="col-md-3">
         <div class="meeting-title">
@@ -38,8 +37,6 @@ If you need one-on-one assistance with your Power BI custom visual development p
     </div>
     <div class="col-md-2 consult-book-link">
         <!-- Calendly link widget begin -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         <a class="btn btn-primary book-button" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dm-p/one-hour-consultation?hide_landing_page_details=1&primary_color=ce6c47'});return false;">Book online</a>
         <!-- Calendly link widget end -->
     </div>
@@ -78,6 +75,7 @@ For potentially larger or ongoing engagements, it's recommended to reach out to 
     <button type="submit" class="btn btn-primary contact-form-submit">Submit</button>
 </form>
 <script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
