@@ -105,7 +105,7 @@ It might have occurred to you to try renaming the measure to [empty], or putting
 </div>
 
 ----
-There is a loophole to this: we can insert a <a href="https://en.wikipedia.org/wiki/Zero-width_space" target="_blank">zero-widthspace</a> unicode character as the renamed measure. This is not easy to type directly, so we can obtain from a website such as <a href="https://beautifuldingbats.com/whitespace/" target="_blank">Beautiful Dingbats</a> and paste it into the measure name for the visual, e.g.:
+There is a loophole to this: we can insert a <a href="https://en.wikipedia.org/wiki/Zero-width_space" target="_blank">zero-widthspace</a> unicode character as the renamed measure. This is not easy to type directly, so we can obtain from a website such as <a href="[https://beautifuldingbats.com/whitespace/](https://qwerty.dev/whitespace/)" target="_blank">qwerty.dev</a> and paste it into the measure name for the visual, e.g.:
 
 <div class="text-center">
     <figure class="figure">
