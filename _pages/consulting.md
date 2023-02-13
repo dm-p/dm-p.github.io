@@ -55,14 +55,14 @@ For potentially larger or ongoing engagements, it's recommended to reach out to 
         <div class="form-row">
             <div class="col">
                 <label for="contact-form-name">Your name</label>
-                <input type="text" class="form-control" id="contact-form-name" placeholder="Enter your name" required>
+                <input type="text" class="form-control" id="contact-form-name" name="Name" placeholder="Enter your name" required>
                 <div class="invalid-feedback">
                     Please enter your name
                 </div>
             </div>
             <div class="col">
                 <label for="contact-form-email">Your email address</label>
-                <input type="email" class="form-control" id="contact-form-email" aria-describedby="contact-form-email-help" placeholder="Enter your email address" required>
+                <input type="email" class="form-control" id="contact-form-email" name="Email" aria-describedby="contact-form-email-help" placeholder="Enter your email address" required>
                 <small id="contact-form-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 <div class="invalid-feedback">
                     Please provide your email address
@@ -72,7 +72,7 @@ For potentially larger or ongoing engagements, it's recommended to reach out to 
     </div>
     <div class="form-group">
         <label for="contact-form-enquiry">Details of your enquiry</label>
-        <textarea class="form-control" id="contact-form-enquiry" rows="5"></textarea>
+        <textarea class="form-control" id="contact-form-enquiry" name="Enquiry" rows="5"></textarea>
     </div>
     <div class="g-recaptcha" data-sitekey="6Ld8v3YkAAAAABKoxdQ9aSWvTHUpyFmdjO52sG8F"></div>
     <button type="submit" class="btn btn-primary contact-form-submit">Submit</button>
