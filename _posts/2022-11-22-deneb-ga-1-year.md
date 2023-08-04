@@ -6,8 +6,8 @@ categories: [Custom Visual]
 tags: [deneb, vega, vega-lite]
 description: "As Deneb has been GA in AppSource for a year, I thought it'd be a good time to catch-up!"
 image: "assets/images/deneb/deneb-1-year.png"
-featured: true
-hidden: true
+featured: false
+hidden: false
 toc: false
 permalink: deneb_ga_1_year
 ---
