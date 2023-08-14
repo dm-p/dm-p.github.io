@@ -6,8 +6,8 @@ categories: [Custom Visual]
 tags: [html, htmlcontent]
 image: "assets/images/html-content/html-lite-store.png"
 description: "Presenting: a less permissive version of HTML Content... but with certification privileges."
-featured: true
-hidden: true
+featured: false
+hidden: false
 toc: false
 permalink: html-content-lite
 ---
