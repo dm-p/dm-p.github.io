@@ -45,54 +45,7 @@ If you need one-on-one assistance with your Power BI custom visual development p
 
 ###### Other Consulting Options
 
-For potentially larger or ongoing engagements, it's recommended to reach out to discuss your requirements before booking. To get in touch, you can send <a target="\_top" href="mailto:{{ site.authors.daniel.email }}?subject=Consulting Enquiry">an email</a> or use the contact form below. Please provide as much information as possible about your project, including your industry and desired outcomes. If you have specific technical or data requirements, please include them in your message to help us determine the best way to support you.
+For potentially larger or ongoing engagements, it's recommended to reach out to discuss your requirements before booking. To get in touch, you can send <a target="\_top" href="mailto:{{ site.authors.daniel.email }}?subject=Consulting Enquiry">an email</a>. Please provide as much information as possible about your project, including your industry and desired outcomes. If you have specific technical or data requirements, please include them in your message to help us determine the best way to support you.
 
-<form action="https://smartforms.dev/submit/63e96bb40dd8ac0a531fe31b" method="POST" class="contact-form" novalidate>
-    <div class="form-group">
-        <div class="form-row">
-            <div class="col">
-                <label for="contact-form-name">Your name</label>
-                <input type="text" class="form-control" id="contact-form-name" name="Name" placeholder="Enter your name" required>
-                <div class="invalid-feedback">
-                    Please enter your name
-                </div>
-            </div>
-            <div class="col">
-                <label for="contact-form-email">Your email address</label>
-                <input type="email" class="form-control" id="contact-form-email" name="Email" aria-describedby="contact-form-email-help" placeholder="Enter your email address" required>
-                <small id="contact-form-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                <div class="invalid-feedback">
-                    Please provide your email address
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="contact-form-enquiry">Details of your enquiry</label>
-        <textarea class="form-control" id="contact-form-enquiry" name="Enquiry" rows="5"></textarea>
-    </div>
-    <div class="g-recaptcha" data-sitekey="6Ld8v3YkAAAAABKoxdQ9aSWvTHUpyFmdjO52sG8F"></div>
-    <button type="submit" class="btn btn-primary contact-form-submit">Submit</button>
-</form>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('contact-form');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-</script>
