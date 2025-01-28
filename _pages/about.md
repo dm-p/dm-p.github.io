@@ -13,8 +13,8 @@ permalink: /about
                     <img src="/assets/images/mvp_2020_12.png" width="150px">
                 </a>
                 <div>
-                    <a target="_blank" href="{{ site.authors.daniel.twitter }}" class="link-dark btn follow" alt="Follow on Twitter" title="Follow on Twitter">
-                        <i class="fab fa-twitter"></i>
+                    <a target="_blank" href="{{ site.authors.daniel.bluesky }}" class="link-dark btn follow" alt="Follow on Bluesky" title="Follow on Bluesky">
+                        <i class="fab fa-bluesky"></i>
                     </a>
                     <a target="_blank" href="{{ site.authors.daniel.linkedin }}" class="link-dark btn follow" alt="Connect on LinkedIn" title="Connect on LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
